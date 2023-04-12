@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(
+        rgb(83, 239, 116), rgb(148, 205, 216), rgb(171, 79, 228)
+      );
+      height: 100vh;
+}
+
+.nav ul{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(125, 162, 141);
+    height: 50px;
+    align-items: center;
+    
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(77, 8, 8);
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+
+}
+.first-FlexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0px 10px;
+}
+
+.first-FlexContainer button{
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 30px;
+
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 93%;
+    height: fit-content;
+    box-shadow: 3px 1px 30px gray;
+    margin-left: 40px;
+}
+.table  th{
+    padding: 0px 40px 0px 140px;
+    
+}
+.table table td{
+    padding: 40px 40px 0px 140px;   
+    
+}
+
+.Main{
+    width: 1000px;
+    height: fit-content;
+    /* margin: 80px 100px 0px 100px; */
+}
+.sub-main{
+    
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 50px;
+    width: 700px;
+    height: 500px; */
+    
+    column-gap: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px;
+    row-gap: 100px;
+    height: 300px;
+
+}
+fieldset{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+}
+fieldset:hover{
+    background-color: aqua;
+}
+ input{
+    background: transparent;
+    border-color:aqua;
+    border: transparent;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.or{
+    border: none;
+    
+}
+
+label{
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-collapse: initial;
+}
+.btn{
+    display: flex;
+    justify-content: right;
+    margin-top: -10px;
+}
+
+.btn button{
+   width: 160px;
+   height: 40px;
+   margin-left: 20px;
+   border-radius: 10px;
+   border: none;
+}
